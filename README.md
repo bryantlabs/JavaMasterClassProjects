@@ -7,7 +7,8 @@ The files located in this repository are:
    These projects did not come from the course but either through youtube videos, 
    stackoverflow.com, or some other source. 
 
-3. For all projects, you may see commented out code. 
+3. For all projects, you may see commented out code. These comments will 
+   have to be removed or uncommented in order for code to run locally. 
 
    Ex. //This is a comment
 

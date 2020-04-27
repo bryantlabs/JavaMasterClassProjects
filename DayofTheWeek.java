@@ -1,4 +1,4 @@
-public class PrintDayofTheWeek {
+public class DayofTheWeek {
 
 //    public static void  printDayOfTheWeek(int day){
 

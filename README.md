@@ -16,3 +16,9 @@ The files located in this repository are:
 
 4. The IDE used was IntilliJIdea Community 2019.3. 
 
+5. The solutions are "my solutions." While there are many different 
+   ways to solve a programming problem, I try to find the way that works
+   best for me. Sometimes this may be a longer route to solving the problem, 
+   sometimes it may be shorter. Feedback is always welcome.
+     
+6. The files (Classes) are listed in alphabetical order, not chronological.

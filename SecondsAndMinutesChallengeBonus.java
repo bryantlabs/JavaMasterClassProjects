@@ -1,4 +1,12 @@
-public class SecondsAndMinutesChallenge {
+/*This can get a little confusing so be careful with the remaining minutes and
+remaining seconds. Pay attention to which variables you use in the return.
+
+Also remember when determining your solution that the final returned value is actually
+a String and not an integer or long so plan for your solution based on this awareness.
+ */
+
+
+public class SecondsAndMinutesChallengeBonus {
 
     public static String getDurationString(int minutes, int seconds) {
         if ((minutes < 0) || (seconds < 0) || (seconds > 59)) {
@@ -19,7 +27,7 @@ public class SecondsAndMinutesChallenge {
                 minutesString = ("0" + minutesString);
             }
 
-            if (remainingminutes < 10){
+            if (seconds < 10){
                 secondsString = ("0" + secondsString);
             }
             return (hoursString + minutesString + secondsString );

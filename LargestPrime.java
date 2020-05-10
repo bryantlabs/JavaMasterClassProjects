@@ -36,10 +36,9 @@ public class LargestPrime {
                                nested inside a for loop would cause the for to
                                increment.*/
             }
-           count++;
+            count++;
         }
         return largestPrime;
-
     }
 }
 
@@ -60,9 +59,7 @@ public class LargestPrime {
 //                i++;
 //            }
 //        }
-//
 //    }
-//
 //}
 
 // Now go back to exercise above and complete for largest prime factor.
@@ -91,12 +88,8 @@ actor of number.
 //            }
 //            return largestPrime;
 //        }
-//
 //    }
-//
 //}
-//
-//
 
 
 /*exercise 3 - us an if statement nesting within a for statement
@@ -122,10 +115,8 @@ to determine largest prime factor for a number;
 //            }
 //            return largestPrime;
 //        }
-//
-//
-//    }
-//}
+//   }
+// }
 
 /* exercise 4 -  Using a for/if nested inside an if/else statement
 using the continue, and incrementing outside of the for statement to

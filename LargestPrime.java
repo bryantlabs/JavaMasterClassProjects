@@ -13,35 +13,35 @@ in order to run the code.
 */
 
 //    Determining largest prime using a while loop
-//public class LargestPrime {
-//
-//    public static int largestPrime(int number) {
-//
-//        if (number <= 1) {
-//            return -1;
-//        }
-//        int largestPrime = 0;
-//        int count = 2;
-//        while (count <= number) {
-//            if (number % count == 0) {
-//                largestPrime = count;
-//                number = number / count;
-//                continue;   /* must use continue here in order to
-//                             to keep the if calculation of largestPrime
-//                             and number executing without incrementing.
-//                             remember that the continue inside the
-//                             if statement nested inside a while statement
-//                             keeps the if going without incrmenting the while
-//                             count ++. But a continue inside an if statement
-//                               nested inside a for loop would cause the for to
-//                               increment.*/
-//            }
-//           count++;
-//        }
-//        return largestPrime;
-//
-//    }
-//}
+public class LargestPrime {
+
+    public static int getLargestPrime(int number) {
+
+        if (number <= 1) {
+            return -1;
+        }
+        int largestPrime = 0;
+        int count = 2;
+        while (count <= number) {
+            if (number % count == 0) {
+                largestPrime = count;
+                number = number / count;
+                continue;   /* must use continue here in order to
+                             to keep the if calculation of largestPrime
+                             and number executing without incrementing.
+                             remember that the continue inside the
+                             if statement nested inside a while statement
+                             keeps the if going without incrmenting the while
+                             count ++. But a continue inside an if statement
+                               nested inside a for loop would cause the for to
+                               increment.*/
+            }
+           count++;
+        }
+        return largestPrime;
+
+    }
+}
 
 // Exercise 1.  For practice, just determine factors for a number
 // using a while loop;
@@ -74,7 +74,7 @@ in order to run the code.
 actor of number.
  */
 //public class LargestPrime {
-//    public static int largestPrime(int number) {
+//    public static int getLargestPrime(int number) {
 //
 //        if (number <= 1) {
 //            return -1;

@@ -1,5 +1,5 @@
 //Alternative Method 2 for solving the numberToWords challenge
-//Just to note: I prefer my NumberToWords.java class for solving the challenge
+//Just to note: I prefer the NumberToWords.java class for solving the challenge
 
 public class AltNumberToWords {
 
@@ -53,7 +53,7 @@ public class AltNumberToWords {
 
         }
 
-        for (int i = numberCounter; i < count; i++) {
+        for (int i = numberCounter; i < count; i++) {  // See Note 1;
             System.out.println("Zero");
         }
     }
@@ -86,9 +86,15 @@ public class AltNumberToWords {
 
     }
 }
-//THE CODE ABOVE DOES WORK
-//*********************************************************************
-//*********************************************************************
+
+/*Note 1: for() is taking the difference between the counters
+ and adding a zero for each incremental difference. Remember that
+ at this point the numberToWords() has the value of the reverse().
+ If the original number is 100, then the reverse() returns 001, so
+ the number in numberToWords() is now 001...which results in an incremental
+  difference of 2, and the for() assures the two zero's are added to the
+  final solution.*/
+
 
 //Alternative Method 2 for solving the numberToWords Challenge
 //*********************************************************************
@@ -150,7 +156,7 @@ public class AltNumberToWords {
 //
 //        }
 //        int diffInCounters = getDigitCount(number) - getDigitCount(reverse(number));
-//        for (int i = 0; i < diffInCounters; i++) {
+//        for (int i = 0; i < diffInCounters; i++) {  //See Note 1:
 //            System.out.println("Zero");
 //        }
 //    }
@@ -183,3 +189,16 @@ public class AltNumberToWords {
 //
 //    }
 //}
+
+/* Note 1:  Here I am solely depending on the getDigitCount()
+to provide me the incremental difference between the original number
+and the reverse number. In my alternative method 2 above I was comparing
+the incremental counters from two different methods; here, I am comparing the
+same incremental counter from the getDigitMethod() but providing the method
+with two different input values.
+
+As same as above, if the original number is 100,
+then the reverse() returns 001, so the number in numberToWords() is now
+001...which results in an incremental difference of 2, and the for() assures
+the two zero's are added to the final solution.
+ */

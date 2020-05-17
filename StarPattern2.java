@@ -5,7 +5,6 @@ public class StarPattern2 {
                 System.out.print("*");
             }
             System.out.println();
-
         }
     }
 }

@@ -12,6 +12,7 @@ public class StarPattern4 {
             for (int m = 1; m <= k; m++) {      // but I like changing them, and since I do not
                 System.out.print("*");          // like using the letter l I use m.
             }
+
             System.out.println();
         }
     }

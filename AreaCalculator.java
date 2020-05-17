@@ -17,10 +17,8 @@ public class AreaCalculator {
         if ((x < 0) || (y < 0)){
             return -1;
         } else {
-
                 double areaOfARectangle = (x * y);
                 return  areaOfARectangle;
-
         }
     }
 }

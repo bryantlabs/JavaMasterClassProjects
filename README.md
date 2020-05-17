@@ -32,9 +32,9 @@ The files located in this repository are:
    the main method in some of the Classes, but if the code is pasted into an IDE as is it will not run
    unless a project is created with a command line app to include a main method. 
 
-8. I have included several star pattern exercises. The only problem relative to the course is the 
-   DiagonalStar.java. The other ones are exercises that I found searching YouTube. If you are 
-   having a difficult time wrapping your head around these types of problems then I would suggest
+8. I have included several star pattern exercises named StarPatterX.java. The only problem relative 
+   to the course is the DiagonalStar.java. The other ones are exercises that I found searching YouTube. 
+   If you are having a difficult time wrapping your head around these types of problems then I would suggest
    practice practice practice. One thing that helped me very much understand this type of 
    logic was the Step by Step debugging option that is available with IntelliJ. According to 
    Jetbrains, the creator of IntelliJ, during a debugging session, you launch your program with 

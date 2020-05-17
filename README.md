@@ -44,6 +44,7 @@ The files located in this repository are:
    in your code and see how your code is affected by changes. A good link to understanding the debugging
    process is https://www.jetbrains.com/help/idea/debugging-your-first-java-application.html.
    
+   
    So, for each of the additional star pattern exercises copy and paste the code in to your IDE and 
    see the pattern obtained. Then, comment out the code and click enter until you can't see the code 
    and try to recreate the pattern without looking at the completed code. 

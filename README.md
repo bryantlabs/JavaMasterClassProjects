@@ -36,8 +36,9 @@ The files located in this repository are:
    to the course is the DiagonalStar.java. The other ones are exercises that I found searching YouTube. 
    If you are having a difficult time wrapping your head around these types of problems then I would suggest
    practice practice practice. One thing that helped me very much understand this type of 
-   logic was the Step by Step debugging option that is available with IntelliJ. According to 
-   Jetbrains, the creator of IntelliJ, during a debugging session, you launch your program with 
+   logic was the Step by Step debugging option that is available with IntelliJ. 
+   
+   According to Jetbrains, the creator of IntelliJ, during a debugging session, you launch your program with 
    the debugger attached to it. The purpose of the debugger is to interfere with the program 
    execution and provide you with the information on what’s happening under the hood. This facilitates 
    the process of detecting and fixing bugs in your program.  You can actually execute each line by line 
@@ -45,6 +46,7 @@ The files located in this repository are:
    process is https://www.jetbrains.com/help/idea/debugging-your-first-java-application.html.
    
    
-   So, for each of the additional star pattern exercises copy and paste the code in to your IDE and 
+   For each of the additional star pattern exercises copy and paste the code in to your IDE and 
    see the pattern obtained. Then, comment out the code and click enter until you can't see the code 
-   and try to recreate the pattern without looking at the completed code. 
+   and try to recreate the pattern without looking at the completed code. I do plan on uploading 
+   many more pattern type exercises in the future.

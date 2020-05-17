@@ -1,6 +1,6 @@
 /* I only know of one way to solve this challenge. But I do include a solution using
     variable names row and column below if you have a hard time with the variable names
-    i and j at first.*/
+    i and j at first. It definitely took me a few tries to be able to use the letter variable.*/
 public class DiagonalStar {
 
     public static void printSquareStar(int number) {
